@@ -1,11 +1,6 @@
 <?php
 // Database connection
-$servername = "localhost";
-$username   = "root";
-$password   = "";
-$database   = "ecommerce_db";
-
-$conn = new mysqli($servername, $username, $password, $database);
+ include "configer.php"; 
 
 // Check connection
 if ($conn->connect_error) {
